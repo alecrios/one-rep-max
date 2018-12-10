@@ -10,6 +10,18 @@ module.exports = {
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+	"indent": ["error", "tab"],
+	"no-tabs": 0,
+	"quote-props": ["warn", "consistent"],
+	"arrow-parens": ["warn", "always"],
+	"no-unused-expressions": [2, {"allowTernary": true}],
+	"object-curly-spacing": ["warn", "never"],
+	"object-curly-newline": ["warn", {
+		"ObjectExpression": {"multiline": true, "consistent": true},
+		"ObjectPattern": {"multiline": true, "consistent": true},
+		"ImportDeclaration": {"multiline": true, "consistent": true},
+		"ExportDeclaration": {"multiline": true, "consistent": true}
+	}],
   },
   parserOptions: {
     parser: 'babel-eslint',
