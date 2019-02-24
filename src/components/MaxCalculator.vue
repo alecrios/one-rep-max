@@ -243,6 +243,11 @@ export default {
 .table {
 	width: 100%;
 	padding: .75rem;
+	border-collapse: separate;
+}
+
+.table__row {
+	border-collapse: separate;
 }
 
 .table__row--active {
@@ -256,6 +261,7 @@ export default {
 	font-size: 1rem;
 	color: rgba(255, 255, 255, .75);
 	white-space: nowrap;
+	border-collapse: separate;
 }
 
 .table__heading {

@@ -10,6 +10,8 @@
 import Header from './components/Header.vue';
 import MaxCalculator from './components/MaxCalculator.vue';
 import Footer from './components/Footer.vue';
+
+import 'core-reset/core-reset.css';
 import 'focus-visible';
 
 export default {
@@ -26,84 +28,8 @@ export default {
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
 
 html {
-	box-sizing: border-box;
-	font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-	font-size: 100%;
-	line-height: 1;
-	-ms-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-}
-
-*,
-*:before,
-*:after {
-	box-sizing: inherit;
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-family: inherit;
-	font-size: inherit;
-	line-height: inherit;
-	font-weight: inherit;
-	font-style: inherit;
-	vertical-align: baseline;
-	background: transparent;
-}
-
-img {
-	max-width: 100%;
-	height: auto;
-	border-style: none;
-	vertical-align: middle;
-}
-
-a {
-	color: currentColor;
-	text-decoration: none;
-}
-
-ol,
-ul {
-	list-style: none;
-}
-
-[type="button"],
-[type="color"],
-[type="date"],
-[type="datetime-local"],
-[type="email"],
-[type="file"],
-[type="month"],
-[type="number"],
-[type="password"],
-[type="range"],
-[type="reset"],
-[type="search"],
-[type="submit"],
-[type="tel"],
-[type="text"],
-[type="time"],
-[type="url"],
-[type="week"],
-select,
-textarea,
-button {
-	border-radius: 0;
-	-webkit-appearance: none;
-	-moz-appearance: none;
-}
-
-::placeholder {
-	color: rgba(255, 255, 255, .375);
-}
-
-table,
-tr,
-th,
-td {
-	border-spacing: 0;
+	font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+	background-color: rgb(36, 39, 49);
 }
 
 ::-moz-focus-inner {
@@ -112,9 +38,5 @@ td {
 
 .js-focus-visible :focus:not([data-focus-visible-added]) {
 	outline: none;
-}
-
-html {
-	background-color: rgb(36, 39, 49);
 }
 </style>
