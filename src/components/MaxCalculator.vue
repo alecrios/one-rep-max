@@ -301,8 +301,8 @@ export default {
 }
 
 .settings__toggle::after {
-	content: "";
-	background-image: url("../assets/arrow.svg");
+	content: '';
+	background-image: url('../assets/arrow.svg');
 	background-repeat: no-repeat;
 	background-size: 1rem 1rem;
 	width: 1rem;

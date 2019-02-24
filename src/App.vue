@@ -59,10 +59,12 @@ html {
 ::-moz-focus-inner {
 	border: 0;
 }
+
 .js-focus-visible :focus {
 	outline: none;
 	box-shadow: var(--box-shadow-focus);
 }
+
 .js-focus-visible :focus:not([data-focus-visible-added]) {
 	box-shadow: none;
 }

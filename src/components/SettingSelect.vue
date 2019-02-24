@@ -55,7 +55,7 @@ export default {
 	padding-right: 2.25rem;
 	box-shadow: 0 .125rem .25rem 0 rgba(0, 0, 0, .5);
 	border-radius: .25rem;
-	background-image: url("../assets/arrows.svg");
+	background-image: url('../assets/arrows.svg');
 	background-repeat: no-repeat;
 	background-position: calc(100% - .75rem) 50%;
 }
