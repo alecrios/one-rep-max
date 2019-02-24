@@ -1,7 +1,25 @@
 # One Rep Max
 
-## Ideas
+## Development
 
-* Add a new section dedicated to the 1RM
-* Add a new section for flat percentages: 95%, 90%, 85%, etc
-* Tab system to switch between sections
+### Set up project
+
+```
+npm install
+```
+
+### Compile and hot-reload for development
+
+```
+npm run serve
+```
+
+### Compile and minify for production
+
+```
+npm run build
+```
+
+## Deployment
+
+This project is configured with Netlify to automatically build and deploy when a change is pushed to the master branch.
