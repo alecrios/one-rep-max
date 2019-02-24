@@ -113,11 +113,6 @@ export default {
 			increments: Object.keys(increments).sort(),
 			units: units.sort(),
 
-			formula: 'Brzycki',
-			rounding: 'Nearest',
-			increment: '5',
-			unit: 'lb',
-
 			maxReps: 20,
 			maxWeight: 2000,
 
@@ -125,6 +120,38 @@ export default {
 		};
 	},
 	computed: {
+		formula: {
+			get() {
+				return this.$store.state.formula;
+			},
+			set(formula) {
+				this.$store.commit('updateFormula', formula);
+			},
+		},
+		rounding: {
+			get() {
+				return this.$store.state.rounding;
+			},
+			set(rounding) {
+				this.$store.commit('updateRounding', rounding);
+			},
+		},
+		increment: {
+			get() {
+				return this.$store.state.increment;
+			},
+			set(increment) {
+				this.$store.commit('updateIncrement', increment);
+			},
+		},
+		unit: {
+			get() {
+				return this.$store.state.unit;
+			},
+			set(unit) {
+				this.$store.commit('updateUnit', unit);
+			},
+		},
 		reps() {
 			return Number(this.inputReps);
 		},
