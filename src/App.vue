@@ -54,6 +54,7 @@ export default {
 html {
 	font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 	background-color: rgba(32, 35, 41, 1);
+	text-shadow: 0 .125rem .125rem rgba(0, 0, 0, .125);
 }
 
 ::-moz-focus-inner {
