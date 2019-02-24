@@ -225,12 +225,12 @@ export default {
 }
 
 .panel {
-	border-top: .125rem solid rgb(51, 55, 65);
-	border-bottom: .125rem solid rgb(39, 41, 49);
+	border-top: .125rem solid rgba(52, 55, 61, 1);
+	border-bottom: .125rem solid rgba(38, 41, 47, 1);
 }
 
 .section {
-	background-color: rgb(43, 47, 57);
+	background-color: rgba(44, 47, 53, 1);
 	border-radius: .25rem;
 	box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.25);
 	overflow: hidden;

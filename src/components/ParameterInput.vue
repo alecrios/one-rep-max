@@ -49,7 +49,7 @@ export default {
 	font-style: italic;
 	font-weight: 500;
 	letter-spacing: .03125rem;
-	color: rgb(191, 59, 59);
+	color: rgba(191, 59, 59, 1);
 	text-transform: none;
 }
 
@@ -58,9 +58,9 @@ export default {
 	width: 100%;
 	font-size: 1rem;
 	line-height: 1.5rem;
-	background-color: rgb(57, 63, 77);
-	border-top: .125rem solid rgb(51, 55, 67);
-	border-bottom: .125rem solid rgb(61, 69, 85);
+	background-color: rgba(60, 63, 69, 1);
+	border-top: .125rem solid rgba(52, 55, 61, 1);
+	border-bottom: .125rem solid rgba(66, 69, 75, 1);
 	color: rgba(255, 255, 255, .75);
 	border-radius: .25rem;
 	padding: .5rem .75rem;

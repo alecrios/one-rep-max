@@ -46,9 +46,9 @@ export default {
 	font-size: 1rem;
 	line-height: 1.5rem;
 	color: rgba(255, 255, 255, .75);
-	background-color: rgb(57, 63, 77);
-	border-top: .125rem solid rgb(61, 69, 85);
-	border-bottom: .125rem solid rgb(51, 55, 67);
+	background-color: rgba(60, 63, 69, 1);
+	border-top: .125rem solid rgba(66, 69, 75, 1);
+	border-bottom: .125rem solid rgba(52, 55, 61, 1);
 	padding-top: .4375rem;
 	padding-bottom: .5625rem;
 	padding-left: .75rem;
@@ -61,8 +61,8 @@ export default {
 }
 
 .setting-select__select:active {
-	border-top: .125rem solid rgb(51, 55, 67);
-	border-bottom: .125rem solid rgb(61, 69, 85);
+	border-top: .125rem solid rgba(52, 55, 61, 1);
+	border-bottom: .125rem solid rgba(66, 69, 75, 1);
 	background-position: calc(100% - .75rem) calc(50% + .0625rem);
 	padding-top: .5rem;
 	padding-bottom: .5rem;
