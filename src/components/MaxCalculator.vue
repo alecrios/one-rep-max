@@ -296,6 +296,10 @@ export default {
 	cursor: pointer;
 }
 
+.settings__toggle:focus {
+	box-shadow: var(--box-shadow-focus) inset;
+}
+
 .settings__toggle::after {
 	content: "";
 	background-image: url("../assets/arrow.svg");
